@@ -9,11 +9,10 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-
 @Configuration
 public class RabbitMQConfig {
 
-    @Value("${rabbitmq.exchange.name)")
+    @Value("${rabbitmq.exchange.name}git ")
     private String exchange;
     @Value("${rabbitmq.binding.routing.key}")
     private String routingKey;
